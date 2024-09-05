@@ -18,6 +18,8 @@ aside {
   grid-area: sidebar;
   background-color: #0627e4;
   height: calc(100vh - 200px);
+  display:flex;
+  flex-direction:row;
 }
 #content {
   grid-area: content;
