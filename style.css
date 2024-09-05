@@ -77,4 +77,10 @@ footer {
   grid-area: footer;
   background-color: #9f0eff;
   height: 100px;
+  text-align: center;
+}
+
+footer p {
+    color: orange;
+    font-size: 40px;
 }
