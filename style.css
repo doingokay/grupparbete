@@ -27,7 +27,7 @@ aside {
   flex-direction:row;
 }
 
-button [class~="sidebutton"] {
+button [class*="sidebutton"] {
   border: 1px solid white;
   background-color: aliceblue;
   color:#0627e4;
