@@ -25,6 +25,7 @@ aside {
 button [class~="sidebutton"] {
   border: 1px solid white;
   background-color: aliceblue;
+  color:#0627e4;
   width: 80%;
   height: auto;
 }
