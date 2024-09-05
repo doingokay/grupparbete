@@ -18,7 +18,18 @@ aside {
   grid-area: sidebar;
   background-color: #0627e4;
   height: calc(100vh - 200px);
+  display:flex;
+  flex-direction:row;
 }
+
+button [class~="sidebutton"] {
+  border: 1px solid white;
+  background-color: aliceblue;
+  color:#0627e4;
+  width: 80%;
+  height: auto;
+}
+
 #content {
   grid-area: content;
   background-color: #d4e20d;
