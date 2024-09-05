@@ -21,6 +21,14 @@ aside {
   display:flex;
   flex-direction:row;
 }
+
+button [class~="sidebutton"] {
+  border: 1px solid white;
+  background-color: aliceblue;
+  width: 80%;
+  height: auto;
+}
+
 #content {
   grid-area: content;
   background-color: #d4e20d;
