@@ -30,3 +30,24 @@ footer {
   background-color: #9f0eff;
   height: 100px;
 }
+
+
+/* Topbar */
+
+.topbar-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.topbar-list {
+  display: flex;
+}
+
+.topbar-link {
+  list-style: none;
+}
+
+.topbar-list a {
+  text-decoration: none;
+  color: white;
+}
