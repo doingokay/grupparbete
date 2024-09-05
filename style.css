@@ -40,9 +40,17 @@ footer {
   margin: 0;
 }
 
+.topbar-titel:hover {
+  text-decoration: underline;
+}
+
 .topbar-logo {
   width: 60px;
   height: 60px;
+}
+
+.topbar-logo:hover {
+  animation: rotate 3s infinite;
 }
 
 .nav-topbar {
@@ -70,6 +78,10 @@ footer {
 }
 
 .topbar-list a:hover {
-  color: cornflowerblue;
+  color: rgb(243, 192, 200);
   font-weight: bold;
+}
+
+@keyframes rotate {
+  50% {transform: rotate(360deg);}
 }
